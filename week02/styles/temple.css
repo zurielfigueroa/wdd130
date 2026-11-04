@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 2rem rgb(104, 102, 102)
+}
+
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: .25em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin: 2em 0;
+    background-color: #dddddd;
+    padding: 1rem;
+}
+
+section h2 {
+    text-align: left;
+    border-bottom: solid #000 1px;
+}
+
+footer {
+    background-color: #333;
+    padding: .25em;
+    text-align: center;
+    color: #fff;
+}
