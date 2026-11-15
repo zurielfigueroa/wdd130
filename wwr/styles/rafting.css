@@ -73,7 +73,7 @@ h1 {
     color: #ffffff;
 }
 
-article {
+.hero article {
     position: absolute;
     width: 90%;
     padding: 3px;
@@ -81,9 +81,9 @@ article {
     left: 25px;
     text-align: center;
     opacity: 0.9;
-    background-color: var(--secondary-color);
+    background-color: var(--accent2-color);
     color: #ffffff;
-    box-shadow: 0 0 15px var(--secondary-color);
+    box-shadow: 0 0 10px var(--accent2-color);
 }
 
 .hero article img {
