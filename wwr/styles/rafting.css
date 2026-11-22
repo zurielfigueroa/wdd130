@@ -107,7 +107,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
-    background-color: var(--secondary-color);
+    background-color: var(--accent1-color);
 }
 
 header img {
@@ -124,8 +124,8 @@ header nav ul {
 
 header nav a {
     text-decoration: none;
-    color: #fff;
-    background-color: var(--accent1-color);
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
     padding: 0.5rem 2rem;
     display: block;
 }
